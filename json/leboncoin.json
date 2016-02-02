@@ -1,0 +1,25 @@
+{
+	"title": "Leboncoin",
+	"type": "object",
+	"properties": {
+		"price": {
+			"type": "integer"
+		},
+		"city": {
+			"type": "string"
+		},
+		"zip": {
+			"type": "integer"
+		},
+		"rooms": {
+			"type": "integer"
+		},
+		"surface": {
+			"type": "integer"
+		},
+		"type": {
+			"type": "string"
+		}
+	},
+	"required": ["price", "city", "surface"]
+}
