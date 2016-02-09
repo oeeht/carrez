@@ -1,25 +1,19 @@
 {
 	"title": "Meilleurs Agents",
 	"type": "object",
-	"properties": {
-		"price": {
-			"type": "integer"
-		},
-		"city": {
-			"type": "string"
-		},
-		"zip": {
-			"type": "integer"
-		},
-		"rooms": {
-			"type": "integer"
-		},
-		"surface": {
-			"type": "integer"
-		},
-		"type": {
-			"type": "string"
-		}
-	},
 
+	"properties": {
+		"type": "string",
+		"zip": "string",
+		"city": "string",
+		"surface": "integer",
+		"pricem2": "integer",
+		"good" :"integer",
+		"price_ini" :"integer",
+		"price": {
+			"max": "string",
+			"min": "string",
+			"avg": "string"
+		}
+}
 }

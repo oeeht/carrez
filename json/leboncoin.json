@@ -3,11 +3,13 @@
 	"type": "object",
 
 	"properties": {
-		"price":"string",
+
 		"city":"string",
-		"zip":"string",
-		"rooms":"string",
-		"surface":"string",
-		"type":"string"
+		"zip":"integer",
+		"type":"string",
+		"rooms":"integer",
+		"price":"interger",
+		"surface":"integer"
+		
 		}
 }
