@@ -15,26 +15,10 @@ app.get('/', function (req, res)
 	res.sendFile('./public/index.html');
 });
 
-app.post('submit.html', function(req, res)
+app.post("/post.html", function(req, res)
 {
 	var url = req.body.url;
 
-	jsLbc.getInf(url);
-
-	var gdeal = jsLbc.goodDeal();
-	console.log(url);
-
-	if(gdeal == 1)
-	{
-		res.sendFile('./public/good.html');
-	}
-	else if(gdeal == 0)
-	{
-		res.sendFile('./public/bad.html');
-	}
-
-
-/*
 	jsLbc.getInf(url, function (err, data)
 	{
   		if(err != null)
@@ -61,7 +45,6 @@ app.post('submit.html', function(req, res)
 			});
 		}
 	});
-*/
 });
 
 app.listen(port,function ()
