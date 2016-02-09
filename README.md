@@ -1,3 +1,8 @@
+# HOW TO USE
+- In your cmd enter node main.js
+- Go to localhost:3000
+- Enter the url of the asset you want to estimate
+
 # LOI CARREZ
 
 > node.js workshop based on real estate
